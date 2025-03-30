@@ -6,6 +6,14 @@ The name "IC-Light" stands for **"Imposing Consistent Light"** (we will briefly 
 
 Currently, we release two types of models: text-conditioned relighting model and background-conditioned model. Both types take foreground images as inputs.
 
+**Note that "iclightai dot com" is a scam website. They have no relationship with us. Do not give scam websites money! This GitHub repo is the only official IC-Light.**
+
+# News
+
+[Alternative model](https://github.com/lllyasviel/IC-Light/discussions/109) for stronger illumination modifications.
+
+Some news about flux is [here](https://github.com/lllyasviel/IC-Light/discussions/98). (A fix [update](https://github.com/lllyasviel/IC-Light/discussions/98#discussioncomment-11370266) is added at Nov 25, more demos will be uploaded soon.)
+
 # Get Started
 
 Below script will run the text-conditioned relighting model:
@@ -236,10 +244,13 @@ Also, note that the original [BRIA RMBG 1.4](https://huggingface.co/briaai/RMBG-
 
 # Cite
 
-    @Misc{iclight,
-      author = {Lvmin Zhang and Anyi Rao and Maneesh Agrawala},
-      title  = {IC-Light GitHub Page},
-      year   = {2024},
+    @inproceedings{
+        zhang2025scaling,
+        title={Scaling In-the-Wild Training for Diffusion-based Illumination Harmonization and Editing by Imposing Consistent Light Transport},
+        author={Lvmin Zhang and Anyi Rao and Maneesh Agrawala},
+        booktitle={The Thirteenth International Conference on Learning Representations},
+        year={2025},
+        url={https://openreview.net/forum?id=u1cQYxRI1H}
     }
 
 # Related Work
